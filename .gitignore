@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Web3-related build artifacts & cache
+artifacts/
+cache/
+contracts/build-info/
+
+# Environment variables & secrets
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
