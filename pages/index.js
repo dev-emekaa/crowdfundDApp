@@ -1,7 +1,7 @@
 import React, { useEffect, useContext, useState } from "react";
 
 import { CrowdFundingContext } from "../Context/CrowdFunding";
-import { Hero, Card, PupUp } from "../Components";
+import { Hero, Card, PopUp } from "../Components";
 
 const index = () => {
   const {
@@ -51,7 +51,7 @@ const index = () => {
       />
 
       {openModel && (
-        <PupUp
+        <PopUp
           setOpenModel={setOpenModel}
           getDonations={getDonations}
           donate={donateCampaign}

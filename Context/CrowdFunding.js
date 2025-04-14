@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Wenb3Modal from "web3modal";
 import { ethers } from "ethers";
 
-import { CrowdFundingABI, CrowdFundingAddress } from "./contants";
+import { CrowdFundingABI, CrowdFundingAddress } from "./constants";
 
 //--- FETCHING SMART CONTRACT
 const fetchContract = (signerOrProvider) =>
